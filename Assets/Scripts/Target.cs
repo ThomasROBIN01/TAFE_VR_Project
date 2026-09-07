@@ -15,4 +15,13 @@ public class Target : MonoBehaviour
     {
         transform.position += new Vector3(-1, 0, 0) * speed * Time.deltaTime;       // Time.deltaTime ensures the object moves at the same speed regardless of the frame rate
     }
+
+    // Whenever an object with the Paddle tag enters in contact with the target, the target is destroyed.
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Sword"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
