@@ -5,7 +5,13 @@ public class TargetSpawner : MonoBehaviour
 {
     public GameObject arrowPrefab;
     public GameObject bombPrefab;
+
+    public Transform frontWall;
+    public Transform leftWall;
+    public Transform rightWall;
+
     public float spawnInterval = 1.5f;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,7 +22,19 @@ public class TargetSpawner : MonoBehaviour
     // Create a random position on Y and Z, and create the target at that position
     public void SpawnTarget()
     {
-        // 1. Select the target: if less that 20%: bomb, otherwise arrow
+        // Select an array of the 3 walls to facilitate the random selection below
+        Transform[] spawnWall =
+        {
+            frontWall, rightWall, leftWall
+        };
+
+        // Select a random number among the 3 from the array of walls
+        int randomSpawn = Random.Range(0, spawnWall.Length);
+
+        // Attribute the matching wall
+        Transform selectedSpawnWall = spawnWall[randomSpawn];
+
+        // Select the target: if less that 20%: bomb, otherwise arrow
         GameObject target;
         float targetProbability = Random.value;
 
@@ -34,7 +52,7 @@ public class TargetSpawner : MonoBehaviour
 
         // Create the target at that position:
         // Instantiate(targetPrefab, randomPosition, Quaternion.identity);     // Quaternion.identity uses the defualt rotation (0,0,0) which makes the target appearing wrongly, instead: 
-        Instantiate(target, randomPosition, target.transform.rotation);     // targetPrefab.transform.rotation: uses the default targetPrefab rotation (as saved in the Editor)
+        Instantiate(target, selectedSpawnWall.position, selectedSpawnWall.rotation);
 
     }
 }
