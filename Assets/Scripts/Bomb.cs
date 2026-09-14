@@ -1,14 +1,8 @@
 using UnityEngine;
 
-public class Target : MonoBehaviour
+public class Bomb : MonoBehaviour
 {
     public float speed = 1f;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -21,11 +15,12 @@ public class Target : MonoBehaviour
     {
         if (other.CompareTag("Sword"))
         {
+            Debug.Log("Pay attention, this was a bomb!");
+            GameManager.Instance.LoseLife();
             Destroy(gameObject);
         }
         else if (other.CompareTag("TransparentWall"))
         {
-            GameManager.Instance.LoseLife();
             Destroy(gameObject);
         }
     }
