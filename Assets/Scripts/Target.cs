@@ -24,6 +24,7 @@ public class Target : MonoBehaviour
         if (other.CompareTag("Sword"))
         {
             Destroy(gameObject);
+            GameManager.Instance.UpdateScore(1);
         }
         // if the target touches the TransparentWall, it then disappear and get destroyed
         else if (other.CompareTag("TransparentWall"))
