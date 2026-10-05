@@ -395,6 +395,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.036
       objectReference: {fileID: 0}
+    - target: {fileID: 8528575465646811082, guid: 4c0fd8ec01100a94d9d1827a19a50eb1, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528575465646811082, guid: 4c0fd8ec01100a94d9d1827a19a50eb1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1026,19 +1034,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9718344
+      value: 0.000018489662
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.23565796
+      value: -0.00007624947
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00035956502
+      value: 0.23565952
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0017880574
+      value: 0.9718357
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1046,11 +1054,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 89.991
+      value: -0.009
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.213
+      value: 180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1567,8 +1575,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b892cb5fcb7914aa3a089d55fcc882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TargetSpawner
-  arrowPrefab: {fileID: 6689350364572775224, guid: 730768b5726804c43a5365e80a52a4a4, type: 3}
-  bombPrefab: {fileID: 20093229702210727, guid: 01de46dd9c1e3fe46bf0839590d26725, type: 3}
+  arrowPrefab: {fileID: 1584583037283137980, guid: 096b6fc84e42ecc489f8c56abe544ad7, type: 3}
+  bombPrefab: {fileID: 7461262071508153680, guid: 8a1b700eea92a634a9377c25200d7a57, type: 3}
   frontWall: {fileID: 1392492598}
   leftWall: {fileID: 1688213491}
   rightWall: {fileID: 1145020885}
