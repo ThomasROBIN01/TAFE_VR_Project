@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5fe7c67f978e80649b1d0a0e8093e281
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 329622
+  packageName: Japanese Warcamp
+  packageVersion: 1.0.0
+  assetPath: Assets/3D_Assets/Japanese Warcamp/Scenes/Assets/JWC_Ground.terrainlayer
+  uploadId: 780924

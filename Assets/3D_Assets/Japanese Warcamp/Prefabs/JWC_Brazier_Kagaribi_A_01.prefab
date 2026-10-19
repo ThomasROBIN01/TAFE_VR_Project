@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!64 &2664616705875664326
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017407588610896202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3425439199487156310, guid: a8f659b13a76d054e91b5814c667934e, type: 3}
+--- !u!64 &7897026942137032646
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846495910165550817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7278555380452613005, guid: a8f659b13a76d054e91b5814c667934e, type: 3}
+--- !u!1001 &79519174839566130
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a8f659b13a76d054e91b5814c667934e,
+        type: 3}
+      propertyPath: m_Name
+      value: JWC_Brazier_Kagaribi_A_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1147645060020517286, guid: a8f659b13a76d054e91b5814c667934e, type: 3}
+    - {fileID: -5255090246824972793, guid: a8f659b13a76d054e91b5814c667934e, type: 3}
+    - {fileID: -6187273388309935018, guid: a8f659b13a76d054e91b5814c667934e, type: 3}
+    - {fileID: 6843448475808962657, guid: a8f659b13a76d054e91b5814c667934e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a8f659b13a76d054e91b5814c667934e, type: 3}
+--- !u!4 &472943080490244313 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a8f659b13a76d054e91b5814c667934e,
+    type: 3}
+  m_PrefabInstance: {fileID: 79519174839566130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2017407588610896202 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7285197160538141064, guid: a8f659b13a76d054e91b5814c667934e,
+    type: 3}
+  m_PrefabInstance: {fileID: 79519174839566130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5846495910165550817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5780492482313054675, guid: a8f659b13a76d054e91b5814c667934e,
+    type: 3}
+  m_PrefabInstance: {fileID: 79519174839566130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9025138427647805680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 472943080490244313}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcfc12c24333a0b49890a673cb58a042,
+        type: 3}
+      propertyPath: m_Name
+      value: JWC_Brazier_Kagaribi_A_01_Firewood
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dcfc12c24333a0b49890a673cb58a042, type: 3}

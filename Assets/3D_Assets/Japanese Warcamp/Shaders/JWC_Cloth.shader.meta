@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e0970b979d264674f9c59c0ae61784ee
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 329622
+  packageName: Japanese Warcamp
+  packageVersion: 1.0.0
+  assetPath: Assets/3D_Assets/Japanese Warcamp/Shaders/JWC_Cloth.shader
+  uploadId: 780924
