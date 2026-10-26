@@ -93,8 +93,12 @@ public class TargetSpawner : MonoBehaviour
         }
 
         // Create a random position on Y and X
+
+        // Distance from Wall object pivot origin to actual mesh centre on X:
+        float distanceFromPivotToCentre = 1.975f;
+
         // Vector3 randomOffset = new Vector3(transform.position.x, Random.Range (1f, 1.5f), Random.Range(-1f, 1f));   // transform.position.x: create the vector at the position of the object on X)
-        Vector3 randomOffset = selectedSpawnWall.up * Random.Range(1f, 1.5f) + selectedSpawnWall.right * Random.Range(-1f, 1f);
+        Vector3 randomOffset = selectedSpawnWall.up * Random.Range(0.5f, 1.75f) + selectedSpawnWall.right * Random.Range((-1.8f + distanceFromPivotToCentre), (1.8f + distanceFromPivotToCentre));
 
         // Take the initial position of the selected wall, add the randomOffset to it, and then spawn the target there.
         Vector3 spawnPositionOnWall = randomOffset + selectedSpawnWall.position;
