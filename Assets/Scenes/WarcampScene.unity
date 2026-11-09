@@ -729,6 +729,59 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 858a7204e8f255a49b77e3fc851560ea, type: 3}
+--- !u!1 &138434304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 138434305}
+  - component: {fileID: 138434306}
+  m_Layer: 0
+  m_Name: BladeHitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &138434305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138434304}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.04750946, y: -0, z: -0, w: 0.99887085}
+  m_LocalPosition: {x: -0.00000083004124, y: 0.745, z: -0.036}
+  m_LocalScale: {x: 0.0066509997, y: 0.90731835, z: 0.032457355}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1150029504}
+  m_LocalEulerAnglesHint: {x: -5.446, y: 0, z: 0}
+--- !u!65 &138434306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138434304}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &147167292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -807,7 +860,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 435414, guid: 4c0fd8ec01100a94d9d1827a19a50eb1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 138434305}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c0fd8ec01100a94d9d1827a19a50eb1, type: 3}
 --- !u!1001 &153657116
@@ -1069,7 +1125,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1207886855}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       insertIndex: -1
@@ -6345,6 +6404,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6367979787301300017, guid: 95f51858536c64947a3429ee165a5e50, type: 3}
   m_PrefabInstance: {fileID: 830519735}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1207886854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207886855}
+  - component: {fileID: 1207886856}
+  m_Layer: 0
+  m_Name: BladeHitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1207886855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207886854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.03489949, y: 0, z: 0, w: 0.99939084}
+  m_LocalPosition: {x: -0.000012968667, y: -0.3, z: 15.3}
+  m_LocalScale: {x: 0.28048, y: 1.4325483, z: 82.874825}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 344952992}
+  m_LocalEulerAnglesHint: {x: 4, y: 0, z: 0}
+--- !u!65 &1207886856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207886854}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1213430596
 PrefabInstance:
   m_ObjectHideFlags: 0
