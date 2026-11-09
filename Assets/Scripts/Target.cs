@@ -3,12 +3,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public float speed = 1f;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    private bool isHit = false;
 
     // Update is called once per frame
     void Update()
@@ -23,14 +18,24 @@ public class Target : MonoBehaviour
         // if the user hit the target with the sword:
         if (other.CompareTag("Sword"))
         {
-            Destroy(gameObject);
-            GameManager.Instance.UpdateScore(1);
+            TargetHit();
         }
         // if the target touches the TransparentWall, it then disappear and get destroyed
         else if (other.CompareTag("TransparentWall"))
         {
             GameManager.Instance.LoseLife();
             Destroy(gameObject);
+        }
+    }
+
+    public void TargetHit ()
+    {
+        // A safeguard to avoid increasing points twice if the sword gets back into the target before it's destroyed
+        if (!isHit)
+        {
+            Destroy(gameObject);
+            GameManager.Instance.UpdateScore(1);
+            isHit = true;
         }
     }
 }
