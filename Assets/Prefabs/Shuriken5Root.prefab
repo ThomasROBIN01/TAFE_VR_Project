@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1862308474610176562}
   - component: {fileID: 7344286378248074432}
   - component: {fileID: 8704044971535659168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shuriken5Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6030335958289061320}
   - component: {fileID: 1358086191848775380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,6 +139,10 @@ PrefabInstance:
     - target: {fileID: 1087725691103300, guid: 7a62b110ef6f55c46adcd43700eecaff, type: 3}
       propertyPath: m_Name
       value: Shuriken5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087725691103300, guid: 7a62b110ef6f55c46adcd43700eecaff, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4336754585854116, guid: 7a62b110ef6f55c46adcd43700eecaff, type: 3}
       propertyPath: m_LocalPosition.x

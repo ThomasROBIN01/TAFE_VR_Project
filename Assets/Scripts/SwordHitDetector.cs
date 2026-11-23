@@ -7,6 +7,8 @@ public class SwordHitDetector : MonoBehaviour
     private Vector3[] previousPositions;
     private Quaternion[] previousRotations;
 
+    [SerializeField] private LayerMask targetLayers;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -78,7 +80,7 @@ public class SwordHitDetector : MonoBehaviour
                                                         out RaycastHit hit,
                                                         previousRotations[i],
                                                         distance,
-                                                        Physics.DefaultRaycastLayers,       // includes the default raycast layers but excludes the Ignore Raycast layer.
+                                                        targetLayers,                       // Only check for collisions with objects in the specified target layers.
                                                         QueryTriggerInteraction.Collide);   //  ensures that trigger colliders,such as those on our targets, are included in the query.
 
                 if (hasHitSomething)

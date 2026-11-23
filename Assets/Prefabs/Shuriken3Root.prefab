@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 309020523393906135}
   - component: {fileID: 1454798880003152165}
   - component: {fileID: 6115329197113657472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shuriken3Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5127307237533296592}
   - component: {fileID: 4898303381188171511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 8367815234501932641}
   - component: {fileID: 8361242249880106141}
   - component: {fileID: 5279787578151747738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shuriken3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

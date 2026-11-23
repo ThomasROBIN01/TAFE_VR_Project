@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2567970872521416827}
   - component: {fileID: 6586270775871589474}
   - component: {fileID: 4600720819252594445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shuriken6Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}

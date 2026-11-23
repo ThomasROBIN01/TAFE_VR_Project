@@ -917,7 +917,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 435414, guid: 4c0fd8ec01100a94d9d1827a19a50eb1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1507155539}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147172, guid: 4c0fd8ec01100a94d9d1827a19a50eb1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1348480065}
   m_SourcePrefab: {fileID: 100100000, guid: 4c0fd8ec01100a94d9d1827a19a50eb1, type: 3}
 --- !u!1001 &153657116
 PrefabInstance:
@@ -1186,6 +1189,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 344952993}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 344952996}
   m_SourcePrefab: {fileID: 100100000, guid: 4f354ba23c3e35741885729ce4a3a3b3, type: 3}
 --- !u!4 &211707877 stripped
 Transform:
@@ -1764,6 +1770,26 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: df515fe1248a5234b8c83771ea2ea776, type: 3}
+--- !u!114 &344952996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344952991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da9d21fb49c0b44b9a191d67f478635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordHitDetector
+  bladeSections:
+  - {fileID: 252636622}
+  - {fileID: 1218788765}
+  - {fileID: 1182659206}
+  - {fileID: 700268502}
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1001 &353949187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7580,6 +7606,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9117845000341521362, guid: d3f264360de312341a808a8501bef665, type: 3}
   m_PrefabInstance: {fileID: 1341219165}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1348480063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147172, guid: 4c0fd8ec01100a94d9d1827a19a50eb1, type: 3}
+  m_PrefabInstance: {fileID: 147167292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1348480065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348480063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da9d21fb49c0b44b9a191d67f478635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordHitDetector
+  bladeSections:
+  - {fileID: 138434306}
+  - {fileID: 2138918861}
+  - {fileID: 132493944}
+  - {fileID: 1724711635}
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1348677215 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9158071979440006748, guid: f237a4aded0b3b64e8df7267a1975913, type: 3}

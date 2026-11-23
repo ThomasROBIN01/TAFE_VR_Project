@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3123742256090588773}
   - component: {fileID: 4560950347495066887}
   - component: {fileID: 8180662383044564547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shuriken7Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,6 +85,10 @@ PrefabInstance:
     - target: {fileID: 1546896064175300, guid: c30ca198b87a35e41858d949dcf5cca3, type: 3}
       propertyPath: m_Name
       value: Shuriken7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546896064175300, guid: c30ca198b87a35e41858d949dcf5cca3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4559826629642552, guid: c30ca198b87a35e41858d949dcf5cca3, type: 3}
       propertyPath: m_LocalPosition.x

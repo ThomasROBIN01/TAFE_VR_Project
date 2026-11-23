@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1161381753212412283}
   - component: {fileID: 3477240551363556584}
   - component: {fileID: 2040753662448109485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dynamite_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
